@@ -1,0 +1,135 @@
+/* Basic reset for mobile */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Responsive font and spacing */
+  body {
+    font-family: cursive, Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+    background-image: url("pxfuel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem;
+  }
+  
+  /* Adjust heading size for mobile */
+  h1 {
+    color: #33ccff;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+  }
+  
+  /* General spacing and layout for mobile */
+  p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  /* Input styling */
+  input {
+    padding: 0.7rem;
+    width: 90%;
+    max-width: 300px;
+    font-size: 1rem;
+  }
+  
+  .inputContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  
+  #playerName {
+    margin-right: 0.5rem;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 0.7rem 2rem;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 90%;
+    max-width: 300px;
+    margin: 0.5rem auto;
+  }
+  
+  button:hover {
+    background-color: black;
+  }
+  
+  /* Feedback styling */
+  .lastResult {
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .lowOrHi {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  .guesses {
+    margin-top: 1rem;
+  }
+  
+  .resultParas {
+    display: inline-block;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .resultParas p {
+    margin: 0.3rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    background-color: #333;
+  }
+  
+  /* Rankings styling */
+  .rankings {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    text-align: left;
+    border: 1px solid #fff;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 0.9rem;
+    width: 80%;
+    max-width: 250px;
+  }
+  
+  .resetRankings {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Media queries for screens below 600px */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    p, .lastResult, .lowOrHi {
+      font-size: 0.9rem;
+    }
+  
+    .rankings, .resetRankings {
+      width: 90%;
+      max-width: 220px;
+    }
+  }
+  
