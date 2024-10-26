@@ -10,12 +10,15 @@ html, body {
     font-family: cursive, Arial, sans-serif;
     text-align: center;
     color: #fff;
-    background-image: url("7.jpg");
+    background-image: url("90.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+    background-color: #000; /* Fallback background color */
+    min-height: 100vh; /* Ensures full viewport height */
     padding: 1rem;
-  }
+}
   
   /* Adjust heading size for mobile */
   h1 {
